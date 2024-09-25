@@ -118,6 +118,7 @@ class LocalController {
                 .json(locais)
 
         } catch (error) {
+            console.log(error)
             response
             .status(500)
             .json({

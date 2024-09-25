@@ -183,6 +183,7 @@ class UsuarioController {
                 .json(usuarios)
 
         } catch (error) {
+            console.log(error)
             response
                 .status(500)
                 .json({
