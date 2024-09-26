@@ -11,7 +11,7 @@
     "db:seed": "npx sequelize-cli db:seed:all",
     "db:seed:undo": "npx sequelize-cli db:seed:undo:all",
     "swagger": "node src/config/docs/autoGen.swagger.js",
-     "start:with-migrations": "npm run db:migrate && npm run db:seed && start:prod"
+     "start:with-migrations": "npm run db:migrate && npm run db:seed && npm start:prod"
   },
   "keywords": [],
   "author": "",
